@@ -1,0 +1,21 @@
+$mainTextcolor:#252525;
+$mainBackGroundColor:#fafafa;
+$white:#fff;
+$lightGray:#b4b4b4;
+$mainFont:Gill Sans,sans-serif;
+
+ul.articleGrid {
+	// background:red;
+
+	li.articleGridArticle {
+		width: 400px;
+		height: 400px;
+		background:$lightGray;
+
+		a {
+			// background:blue;
+			display: block;
+			line-height: 400px;
+		}
+	}
+}
